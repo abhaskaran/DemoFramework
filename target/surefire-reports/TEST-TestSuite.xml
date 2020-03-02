@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="162.009" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Ashwini\DeloitteProject"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Ashwini\DeloitteProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Ashwini\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Ashwini\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4969771036467878285.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_231/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_231/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_231/bin/../jre/lib/amd64;&quot;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Users\Ashwini\AppData\Local\Android\Sdk\tools\bin;C:\Users\Ashwini\AppData\Local\Android\Sdk\tools;C:\Users\Ashwini\AppData\Local\Android\Sdk\platform-tools&quot;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\Ashwini\AppData\Local\Microsoft\WindowsApps;C:\Users\Ashwini\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ashwini\AppData\Roaming\npm;;C:\Users\Ashwini\Desktop;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Ashwini"/>
+    <property name="user.timezone" value="Australia/Sydney"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="Ashwini"/>
+    <property name="java.class.path" value="C:\Users\Ashwini\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.13.0.20190716-1623\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Ashwini\DeloitteProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="doLogging" classname="TestDriver.LoginTest" time="86.571">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text() = &apos;Sign In&apos;]&quot;}&#10;  (Session info: chrome=80.0.3987.122)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-E72FQAM&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Ashwini\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: d69e0ced75b3250d185bf3582f750108&#10;*** Element info: {Using=xpath, value=//button[text() = &apos;Sign In&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text() = 'Sign In']"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E72FQAM', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Ashwini\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d69e0ced75b3250d185bf3582f750108
+*** Element info: {Using=xpath, value=//button[text() = 'Sign In']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at PageObjects.LoginPage.doLogin(LoginPage.java:40)
+	at TestDriver.LoginTest.doLogging(LoginTest.java:32)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+rowcount 0
+No of coulmns 0
+Sheetname TestDataSheet
+getCellData LoginTest
+Row Number containing the test case name = 0
+rowcount 2
+No of coulmns 0
+Sheetname TestDataSheet
+getCellData 7.ashwini@gmail.com
+rowcount 3
+No of coulmns 0
+Sheetname TestDataSheet
+getCellData ash@hotmail.com
+rowcount 4
+No of coulmns 0
+Sheetname TestDataSheet
+Row is empty/Null
+Total rows of input data for LoginTest=2
+rowcount 1
+No of coulmns 0
+Sheetname TestDataSheet
+getCellData UserName
+rowcount 1
+No of coulmns 1
+Sheetname TestDataSheet
+getCellData Password
+rowcount 1
+No of coulmns 2
+Sheetname TestDataSheet
+getCellData Browser
+rowcount 1
+No of coulmns 3
+Sheetname TestDataSheet
+Cell is empty/Null
+Total number of columns for each test =3
+rowcount 1
+No of coulmns 0
+Sheetname TestDataSheet
+getCellData UserName
+rowcount 2
+No of coulmns 0
+Sheetname TestDataSheet
+getCellData 7.ashwini@gmail.com
+rowcount 1
+No of coulmns 1
+Sheetname TestDataSheet
+getCellData Password
+rowcount 2
+No of coulmns 1
+Sheetname TestDataSheet
+getCellData welcome
+rowcount 1
+No of coulmns 2
+Sheetname TestDataSheet
+getCellData Browser
+rowcount 2
+No of coulmns 2
+Sheetname TestDataSheet
+getCellData Chrome
+rowcount 1
+No of coulmns 0
+Sheetname TestDataSheet
+getCellData UserName
+rowcount 3
+No of coulmns 0
+Sheetname TestDataSheet
+getCellData ash@hotmail.com
+rowcount 1
+No of coulmns 1
+Sheetname TestDataSheet
+getCellData Password
+rowcount 3
+No of coulmns 1
+Sheetname TestDataSheet
+getCellData welcome
+rowcount 1
+No of coulmns 2
+Sheetname TestDataSheet
+getCellData Browser
+rowcount 3
+No of coulmns 2
+Sheetname TestDataSheet
+getCellData Chrome
+2020-03-02 12:58:31 INFO  basePage:28 - Initiate browser..
+2020-03-02 12:58:31 INFO  basePage:37 - Launching google chrome browser..
+2020-03-02 12:58:41 INFO  basePage:46 - Launch the application url
+2020-03-02 12:58:56 INFO  basePage:31 - Login to the application by entering user credentials
+]]></system-out>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 16429
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1583114318.455][WARNING]: Timed out connecting to Chrome, retrying...
+Mar 02, 2020 12:58:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1583114322.301][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114322.402][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114322.503][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114322.605][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114322.706][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114322.807][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114324.668][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114324.769][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114324.870][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114324.972][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114325.073][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114325.174][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114325.274][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114325.375][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114325.477][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114325.578][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114325.780][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114325.881][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114325.982][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114326.082][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114326.184][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114326.285][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114326.386][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114326.487][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114326.589][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114326.690][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114326.791][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114326.893][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114326.995][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114327.096][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114327.197][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114327.297][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114327.399][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114327.502][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114327.603][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114327.704][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114327.805][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114327.905][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114328.006][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114328.107][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114328.208][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114328.310][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114328.411][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114328.513][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114328.614][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114328.719][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114328.821][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114328.923][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114329.024][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114329.125][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114329.227][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114329.329][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114329.430][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114329.531][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114329.644][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114329.745][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114329.846][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114329.948][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114330.050][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114330.151][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114330.252][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114330.354][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114330.456][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114330.557][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114330.658][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114330.760][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114330.861][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114330.963][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114331.064][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114331.165][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114331.316][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114331.417][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114331.518][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114331.619][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114331.720][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114331.821][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114331.922][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114332.023][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114332.124][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114334.274][WARNING]: Timed out connecting to Chrome, retrying...
+</system-err>
+  </testcase>
+  <testcase name="doLogging" classname="TestDriver.LoginTest" time="75.438">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text() = &apos;Sign In&apos;]&quot;}&#10;  (Session info: chrome=80.0.3987.122)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-E72FQAM&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Ashwini\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: fadfe96bef4f0b79f7dd86d65b33bb55&#10;*** Element info: {Using=xpath, value=//button[text() = &apos;Sign In&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text() = 'Sign In']"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E72FQAM', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Ashwini\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fadfe96bef4f0b79f7dd86d65b33bb55
+*** Element info: {Using=xpath, value=//button[text() = 'Sign In']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at PageObjects.LoginPage.doLogin(LoginPage.java:40)
+	at TestDriver.LoginTest.doLogging(LoginTest.java:32)
+</failure>
+    <system-out>2020-03-02 12:59:58 INFO  basePage:70 - Taking failed test screenshot..
+2020-03-02 12:59:59 INFO  basePage:28 - Initiate browser..
+2020-03-02 12:59:59 INFO  basePage:37 - Launching google chrome browser..
+2020-03-02 13:00:05 INFO  basePage:46 - Launch the application url
+2020-03-02 13:00:12 INFO  basePage:31 - Login to the application by entering user credentials
+</system-out>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 44918
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1583114403.345][WARNING]: Timed out connecting to Chrome, retrying...
+Mar 02, 2020 1:00:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1583114406.150][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114406.265][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114406.368][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114407.765][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583114409.892][WARNING]: Timed out connecting to Chrome, retrying...
+</system-err>
+  </testcase>
+</testsuite>

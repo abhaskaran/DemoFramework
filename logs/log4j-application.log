@@ -1,0 +1,53 @@
+2020-03-01 21:00:00 INFO  basePage:28 - Initiate browser..
+2020-03-01 21:00:00 INFO  basePage:70 - Taking failed test screenshot..
+2020-03-01 21:02:12 INFO  basePage:28 - Initiate browser..
+2020-03-01 21:02:12 INFO  basePage:70 - Taking failed test screenshot..
+2020-03-01 21:03:32 INFO  basePage:28 - Initiate browser..
+2020-03-01 21:03:32 INFO  basePage:70 - Taking failed test screenshot..
+2020-03-02 09:47:31 INFO  basePage:28 - Initiate browser..
+2020-03-02 09:49:43 INFO  basePage:70 - Taking failed test screenshot..
+2020-03-02 11:21:40 INFO  basePage:28 - Initiate browser..
+2020-03-02 11:21:40 INFO  basePage:37 - Launching google chrome browser..
+2020-03-02 11:21:48 INFO  basePage:46 - Launch the application url
+2020-03-02 11:21:57 INFO  basePage:31 - Login to the application by entering user credentials
+2020-03-02 11:22:37 INFO  basePage:70 - Taking failed test screenshot..
+2020-03-02 11:22:38 INFO  basePage:28 - Initiate browser..
+2020-03-02 11:22:38 INFO  basePage:37 - Launching google chrome browser..
+2020-03-02 11:22:43 INFO  basePage:46 - Launch the application url
+2020-03-02 11:32:07 INFO  basePage:28 - Initiate browser..
+2020-03-02 11:32:08 INFO  basePage:37 - Launching google chrome browser..
+2020-03-02 11:32:16 INFO  basePage:46 - Launch the application url
+2020-03-02 11:32:23 INFO  basePage:31 - Login to the application by entering user credentials
+2020-03-02 11:38:31 INFO  basePage:28 - Initiate browser..
+2020-03-02 11:38:31 INFO  basePage:37 - Launching google chrome browser..
+2020-03-02 11:38:38 INFO  basePage:46 - Launch the application url
+2020-03-02 11:38:48 INFO  basePage:31 - Login to the application by entering user credentials
+2020-03-02 11:39:49 INFO  basePage:70 - Taking failed test screenshot..
+2020-03-02 11:39:50 INFO  basePage:28 - Initiate browser..
+2020-03-02 11:39:50 INFO  basePage:37 - Launching google chrome browser..
+2020-03-02 11:39:56 INFO  basePage:46 - Launch the application url
+2020-03-02 11:40:02 INFO  basePage:31 - Login to the application by entering user credentials
+2020-03-02 11:41:03 INFO  basePage:70 - Taking failed test screenshot..
+2020-03-02 11:41:04 INFO  basePage:86 - Clean up activity: Closed all browser instances..
+2020-03-02 11:47:47 INFO  basePage:28 - Initiate browser..
+2020-03-02 11:47:47 INFO  basePage:37 - Launching google chrome browser..
+2020-03-02 11:47:54 INFO  basePage:46 - Launch the application url
+2020-03-02 11:48:00 INFO  basePage:31 - Login to the application by entering user credentials
+2020-03-02 11:49:01 INFO  basePage:70 - Taking failed test screenshot..
+2020-03-02 11:49:03 INFO  basePage:28 - Initiate browser..
+2020-03-02 11:49:03 INFO  basePage:37 - Launching google chrome browser..
+2020-03-02 11:49:08 INFO  basePage:46 - Launch the application url
+2020-03-02 11:49:14 INFO  basePage:31 - Login to the application by entering user credentials
+2020-03-02 11:50:15 INFO  basePage:70 - Taking failed test screenshot..
+2020-03-02 11:50:17 INFO  basePage:86 - Clean up activity: Closed all browser instances..
+2020-03-02 12:58:31 INFO  basePage:28 - Initiate browser..
+2020-03-02 12:58:31 INFO  basePage:37 - Launching google chrome browser..
+2020-03-02 12:58:41 INFO  basePage:46 - Launch the application url
+2020-03-02 12:58:56 INFO  basePage:31 - Login to the application by entering user credentials
+2020-03-02 12:59:58 INFO  basePage:70 - Taking failed test screenshot..
+2020-03-02 12:59:59 INFO  basePage:28 - Initiate browser..
+2020-03-02 12:59:59 INFO  basePage:37 - Launching google chrome browser..
+2020-03-02 13:00:05 INFO  basePage:46 - Launch the application url
+2020-03-02 13:00:12 INFO  basePage:31 - Login to the application by entering user credentials
+2020-03-02 13:01:14 INFO  basePage:70 - Taking failed test screenshot..
+2020-03-02 13:01:16 INFO  basePage:86 - Clean up activity: Closed all browser instances..
