@@ -15,7 +15,15 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
@@ -26,6 +34,11 @@ public class baseTest extends PropertyFile{
 	
 	public static final Logger log = Logger.getLogger(basePage.class.getName());
 	//public static final Logger log = Logger.getLogger(BaseTest.class.getName());
+	
+	public ExtentHtmlReporter reporter;
+	public ExtentReports extent;
+	public ExtentTest test;
+	
 	public baseTest() throws IOException{	
 	}
 	
@@ -62,21 +75,47 @@ public class baseTest extends PropertyFile{
 					System.out.println("Error:" + e.getStackTrace());
 				}
 			}
+			
+			@BeforeTest
+			public void setExtentReport() {
+				reporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"//test-output//projectExtentReport.html");
+				reporter.config().setDocumentTitle("Automation Test Report");
+				
+				extent = new ExtentReports();
+				extent.attachReporter(reporter);
+				extent.setSystemInfo("Browser", "Chrome");
+				
+			}
+			
+			@AfterTest
+			public void endReport() {
+				extent.flush();
+			}
 
-			@AfterMethod
-			public void takeScreenshotIfFailed(ITestResult result) throws IOException {
-				if (ITestResult.FAILURE == result.getStatus()) {
-					try {
+			
+			public String takeScreenshotIfFailed() throws IOException {
+								
 						log.info("Taking failed test screenshot..");
 						//String failedTest = result.getName();
 						File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-						FileUtils.copyFile(scrFile, new File("./FailedScreenShots/" + "failed_" + result.getName().toLowerCase()+ "_" + timestamp() + ".png"));
-						//FileUtils.copyFile(scrFile, new File("FailedScreenShots"));
-				} catch (Exception e) {
-						System.out.println(e.getStackTrace());
-					}
-				}
+						//String failedTest = result.getName();
+						String destination = System.getProperty("user.dir")+"//FailedScreenShots//" + "failed_" +"_"+ timestamp()+".png";
+						File finalDestination = new File(destination);
+						//FileUtils.copyFile(scrFile, new File("./FailedScreenShots/" + "failed_" + result.getName().toLowerCase()+ "_" + timestamp() + ".png"));
+						FileUtils.copyFile(scrFile,finalDestination);
+						return destination;
 			}
+			
+			@AfterMethod
+			public void extentReportInfo(ITestResult result) throws IOException {
+				if(result.getStatus() == ITestResult.FAILURE) {
+					test.log(Status.FAIL, "Testcase failed is "+result.getName());
+					test.addScreenCaptureFromPath(takeScreenshotIfFailed());
+				}
+				
+			}
+			
+			
 			
 			
 			@AfterClass(alwaysRun = true)

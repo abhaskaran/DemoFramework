@@ -27,6 +27,7 @@ public class LoginTest extends baseTest{
 		
 				log.info("Initiate browser..");
 				setDriver(table.get("Browser"), PropertyFile.getObject().getProperty("URL"));
+				test = extent.createTest(testCase);
 				LoginPage l = new LoginPage(driver);
 				log.info("Login to the application by entering user credentials");
 				Object page = l.doLogin(table.get("UserName"), table.get("Password"));
